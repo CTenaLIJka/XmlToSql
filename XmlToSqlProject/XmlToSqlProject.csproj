@@ -42,6 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContractData\ContractData.cs" />
+    <Compile Include="ContractData\ContractXmlProvider.cs" />
+    <Compile Include="ContractData\Customer.cs" />
+    <Compile Include="ContractData\Foundation.cs" />
+    <Compile Include="ContractData\Order.cs" />
     <Compile Include="PlacingWayXmlModel.cs" />
     <Compile Include="PlacingWayXmlProvider.cs" />
     <Compile Include="Program.cs" />
@@ -54,6 +59,11 @@
     <EmbeddedResource Include="XmlSources\nsiPlacingWay.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="contracts\contract_0829300012114000002_13563097.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

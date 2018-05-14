@@ -41,6 +41,7 @@ namespace XmlToSqlProject.ContractData
         {
             return XMLNS + shortName;
         }
+
         private string GetFullElementNameOos(string shortName)
         {
             return OOS + shortName;
